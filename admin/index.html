@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <div class="fadeIn first">
+                <h3>Login</h3>
+            </div>
+            <form id="formLogar">
+                <input type="text" id="login" name="login" class="form-control" placeholder="E-mail" required>
+                <input style="background-color: #f6f6f6;
+                border: none;
+                color: #0d0d0d;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 5px;
+                width: 85%;
+                border: 2px solid #f6f6f6;"
+                type="password" id="senha" name="senha" class="form-control" placeholder="Senha" required>
+                <input type="submit" class="fadeIn fourth" value="Entrar">
+            </form>
+
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Esqueci minha senha</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="mostrar">
+         method="POST" action="../bd/verificalogin.php"
+    </div> -->
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
