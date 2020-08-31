@@ -46,12 +46,12 @@
                     $email->isSMTP();
                     $email->Host = 'smtp.gmail.com';
                     $email->SMTPAuth = true;
-                    $email->Username = 'sistematopicos@gmail.com';
-                    $email->Password = 'sistematopicos2019';
+                    $email->Username = 'your email';
+                    $email->Password = 'your password';
                     $email->Port = 587;
         
-                    $email->setFrom('sistematopicos@gmail.com');
-                    $email->addAddress('mat358591@gmail.com');
+                    $email->setFrom('your email');
+                    $email->addAddress('destinatário');
         
                     $email->isHTML(true);
                     $email->Subject = 'Novo pedido';
